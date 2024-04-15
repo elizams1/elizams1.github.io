@@ -1,0 +1,66 @@
+body{
+  font-family:'Poppins', sans-serif;
+}
+.content{
+  padding: 200px 100px;
+}
+.img-profile{
+  width: 500px;
+
+}
+.about-img{
+  align-items: center;
+  justify-content: flex-end;
+  display: flex;
+  padding-right: 50px;
+}
+.about-detail{
+  padding-right: 200px;
+}
+
+.btn-cv{
+  color: #000;
+  background: #FF0060;
+  width: 150px;
+  text-align: center;
+  padding: 50px 30px;
+  border-radius:10px;
+  border: 2px solid #000;
+  font-weight: bold;
+}
+.btn-projects{
+  color: #000;
+  background: #F6FA70;
+    width: 150px;
+    text-align: center;
+    padding: 50px 30px;
+    border-radius: 10px;
+    border: 2px solid #000;
+    font-weight: bold;
+}
+.btn-contacts{
+  color: #000;
+  background: #00DFA2;
+    width: 150px;
+    text-align: center;
+    padding: 50px 30px;
+    border-radius: 10px;
+    border: 2px solid #000;
+    font-weight: bold;
+}
+.cv, .contacts, .projects{
+  margin-top:100px;
+}
+.title-cv{
+  font-weight: bold;
+  margin-bottom: 0px;
+}
+.title-cv-two{
+  margin-bottom: 0px;
+}
+.place-detail{
+  color:gray;
+  font-style: italic;
+  font-weight: normal;
+  margin-bottom: 0px;
+}

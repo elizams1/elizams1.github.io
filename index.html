@@ -2,8 +2,160 @@
 <html lang="en">
   <head>
 
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet">
+
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
   </head>
   <body>
-    <p>Hallo, Ini Eliza! </p>
+    <div class="content">
+      <section class="about" id="about">
+        <div class="d-flex about-section align-items-center ">
+          <div class="w-50 about-img animate__animated animate__fadeInLeft animate__slower">
+            <img class="img-profile rounded-circle" src="./assets/img/ElProfile.jpg">
+          </div>
+          <div class="w-50 about-detail animate__animated animate__fadeInRight animate__slower">
+            <h1>Hello!</h1>
+            <p style="text-align: justify;">As a fresh graduate of informatics engineering at Sumatera Institute of Technology, I am interested in looking for a role in the technology industry because it is related to my major. I have studied programming languages such as C++ and Python. In addition, I also studied HTML and Bootstrap in the Website Programming course, React Native in Mobile Application Development course, Image Processing and Segmentation in the Digital Image Processing course. Lately, I joined the Bootcamp in PT. Xsis Mitra Utama to learn about .NET Technology, C# with Visual Studio and SQL with Microsoft SQL Server. Let's check out my project at <a href="https://github.com/elizams1">https://github.com/elizams1</a>.</p>
+            <div class="d-flex justify-content-between">
+              <a class="btn-cv" href="#cv">CV</a>
+              <a class="btn-projects" href="#projects">Projects</a>
+              <a class="btn-contacts" href="#contacts">Contacs</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="cv" id="cv">
+        <div>
+          <h1>Curriculum Vitae</h1>
+
+          <!-- EDUCATION -->
+          <div>
+            <h3>Education</h3>
+            <div class="d-flex justify-content-between">
+              <div>
+                <p class="title-cv">Institut Teknologi Sumatera - <span class="place-detail">Bandar Lampung, Lampung</span></p>
+                <p class="title-cv-two">Bachelor's Degree Informatics Engineering</>
+                <p>GPA : 3.67</p>
+              </div>
+              <div>
+                <p class="place-detail">August 2019 - August 2023</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- WORK EXPERIENCES -->
+          <div>
+            <h3>Work Experiences</h3>
+            <div class="d-flex justify-content-between mb-2">
+              <div>
+                <p class="title-cv">.Net Bootcamp Trainee - <span class="place-detail">PT. Xsis Mitra Utama</span></p>
+                <ul class="title-cv-two">
+                  <li>Learn basic C# and Object Oriented Program using Visual Studio</li>
+                  <li>Learn SQL and management database using Microsoft SQL Server</li>
+                  <li>Created project using .Net Framework</li>
+                </ul>
+              </div>
+              <div>
+                <p class="place-detail">November 2023 - Now</p>
+              </div>
+            </div>
+
+            <div class="d-flex justify-content-between mb-2">
+              <div>
+                <p class="title-cv">Front End Developer Intern - <span class="place-detail">PT. Microdata Indonesia</span></p>
+                <ul class="title-cv-two">
+                  <li>Create a government website with ReactJs</li>
+                  <li>Designing website interface with Figma</li>
+                </ul>
+              </div>
+              <div>
+                <p class="place-detail">June 2022 - July 2022</p>
+              </div>
+            </div>
+
+            <div class="d-flex justify-content-between mb-4">
+              <div>
+                <p class="title-cv">Introduction Computer and Software Laboratory Asistant - <span class="place-detail">Institut Teknologi Sumatera</span></p>
+                <ul class="title-cv-two">
+                  <li>Responsible for the report of the freshman as a practician</li>
+                  <li>Responsible for assisting lecturers in introducing software and computer courses</li>
+                </ul>
+              </div>
+              <div>
+                <p class="place-detail">February 2022 - June 2022</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- ORGANIZATIONAL EXPERIENCE -->
+          <div>
+            <h3>Organizational Experience</h3>
+            <div class="d-flex justify-content-between mb-4">
+              <div>
+                <p class="title-cv">Secretary of Communication and Information Department - <span class="place-detail">HMIF ITERA</span></p>
+                <ul class="title-cv-two">
+                  <li>Responsible for managing document of several projects or events</li>
+                  <li>Responsible for planning content for social media TikTok of HMIF ITERA</li>
+                </ul>
+              </div>
+              <div>
+                <p class="place-detail">June 2022 - August 2022</p>
+              </div>
+            </div>
+          </div>
+          <div>
+            <h3>Volunteer Experience</h3>
+            <div class="d-flex justify-content-between mb-4">
+              <div>
+                <p class="title-cv">Staff of IT Division - <span class="place-detail">PPLK
+                    ITERA 2021</span></p>
+                <ul class="title-cv-two">
+                  <li>Responsible for develop interface of Website PPLK 2021 using HTML and CSS with Bootstrap 5 for styling</li>
+                </ul>
+              </div>
+              <div>
+                <p class="place-detail">June 2022 - August 2022</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="projects" id="projects">
+        <div>
+          <h1>Projects</h1>
+        </div>
+        
+      </section>
+
+      <section class="contacts" id="contacts">
+        <div>
+          <h1>Contacts</h1>
+        </div>
+        
+      </section>
+    </div>
+    
+
+
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
   </body>
 </html>
