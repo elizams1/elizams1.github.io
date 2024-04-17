@@ -64,3 +64,26 @@ body{
   font-weight: normal;
   margin-bottom: 0px;
 }
+.left-carousel{
+  /* border: 1px solid #000;
+  border-radius: 40px; */
+  /* display: flex;
+  justify-content: center; */
+  width: 40%;
+}
+.right-carousel{
+  width: 55%;
+}
+.the-carousel{
+  height: 400px;
+  width: 600px;
+  border-radius: 10px;
+  
+}
+.the-carousel-one{
+  height: 420px;
+  width: 600px;
+  border: 2px solid #000;
+  padding: 5px;
+  border-radius: 10px;
+}
